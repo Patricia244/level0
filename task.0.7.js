@@ -1,4 +1,4 @@
-function convertTemp(celsius){
+function celsiusToFahreneit (celsius){
     var x = celsius;
     var fahrenheit = x * 9/5 + 32;
    
@@ -8,7 +8,7 @@ console.log(Math.floor(convertTemp(100)));
 
 
 //second function
-function convertTemperature(fahren){
+function fahrenheitTocelsius(fahren){
     y = fahren
     var celsius = (y -32) * 5/9;
     return celsius
