@@ -1,5 +1,6 @@
     function areaOfTriangle( x ,y,z){
-        var area = 0.5 * (x + z + y);
+        var formula = (Math.pow(x)) *(Math.sqrt(y)/z);
+        var area =(x*x)*(Math.sqrt(y)/z);
         console.log(area);
     }
 areaOfTriangle(2,4,6);
