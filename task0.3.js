@@ -1,5 +1,6 @@
 
-function hello(str){
-    console.log('Hello Tshepo!'); 
+function hello(name){
+    
+    return `Hello ${name}!`
 }
-hello('Hello Tshepo!');
+console.log(hello('Tshepo'));
