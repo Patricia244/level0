@@ -8,7 +8,7 @@ function findvowel(word) {
       if (word.length - 1 !== i) found +=  ',';
     }
   }
-  return found
+  return found.toLowerCase()
       .split(',') 
       .filter(function(item,pos,self){
       return self.indexOf(item) == pos;
@@ -17,4 +17,4 @@ function findvowel(word) {
       
 }
 
-console.log(findvowel('slindile'));
+console.log(findvowel('Umumzi'));
