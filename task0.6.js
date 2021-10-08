@@ -1,12 +1,10 @@
-function  maximum(x, y, z) {
-   if (x > y & x >z ){
-       return(x)
-   }else if( y > x & y> z){
-        return(y);
-
+function maximum(num1,num2,num3) {
+  let max = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max){
+     max = arguments[i];
     }
-   else{
-       return(z)
-   }
+  }
+  return max;
 }
-console.log(maximum(30, 90, 9));
+console.log(maximum(30, 90, 9, 100,22,130));
