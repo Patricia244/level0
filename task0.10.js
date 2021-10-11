@@ -8,10 +8,9 @@ function commonLetters(str1, str2) {
   return sameLetters
     .split(",")
     .filter(function (item, pos, self) {
-      return self.indexOf(item) == pos;
+      return self.indexOf(item) === pos;
     })
     .join(",")
     .replace(/,(\s+)?$/, ".");
 }
-
 console.log(commonLetters("houses", "computers"));
