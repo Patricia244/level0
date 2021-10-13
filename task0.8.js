@@ -1,6 +1,6 @@
 function numberToTime(number) {
-  var hours = Math.floor(number / 60);
-  var minutes = Math.floor(number % 60);
+  let  hours = Math.floor(number / 60);
+  let  minutes = Math.floor(number % 60);
   if (hours === 0 && minutes === 0) return `${hours} hours, ${minutes} minutes`;
   if (hours === 1 && minutes === 1) return `${hours} hour, ${minutes} minute`;
   if (hours > 1 && minutes > 1) return `${hours} hours, ${minutes} minutes`;
